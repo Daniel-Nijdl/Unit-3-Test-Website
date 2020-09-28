@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Daniel Nijdl">
     <!--^^^^THIS IS REQUIRED FOR YOUR GRADES IN THE FUTURE ^^^^-->
-    <meta name="description" content="This website is for Part 2 of my Unit 3 Test and includes a homepage, quiz, and survey.">
+    <meta name="description"
+        content="This website is for Part 2 of my Unit 3 Test and includes a homepage, quiz, and survey.">
 
     <meta property="og:image" content="images/pexels-roman-odintsov-4871017.jpg" type="image/x-icon">
     <meta property="og:description" content="This is the homepage of my Unit 3 Test Website.">
@@ -12,18 +14,19 @@
 
     <title>Home Page</title>
     <link rel="stylesheet" href="style.css">
-    <link rel ="shortcut icon" href="images/pexels-roman-odintsov-4871017.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="images/pexels-roman-odintsov-4871017.jpg" type="image/x-icon">
 </head>
+
 <body style="background-image: url(images/lightBackground.png); background-size: 100em;">
     <fieldset>
         <legend>Links to Other Pages</legend>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home Page</a></li>
-            <li><a href="quiz.html">Quiz</a></li>
-            <li><a href="survey.html">Survey</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </nav>
     </fieldset>
     <main>
         <h1>Welcome to my site!</h1>
@@ -34,19 +37,20 @@
     </main>
     <form action="quiz.html" method="POST">
         <fieldset>
-        <legend>User Information</legend>
+            <legend>User Information</legend>
             <ul>
                 <li><label for="Uname">User Name</label>
-                <input type="text" id="Uname" name="user.name"></li>
+                    <input type="text" id="Uname" name="user.name"></li>
                 <li><label for="pass">Password</label>
                     <input type="text" id="Uname" name="user.name"></li>
                 <li><label for="UIN">User Identification Number</label>
                     <input type="text" id="UIN" name="user.UIN"></li>
                 <li><label for="Tdate">Todays Date</label>
                     <input type="text" id="Tdate" name="user.Tdate"></li>
-                    <li><button type="submit">Submit</button></li>
+                <li><button type="submit">Submit</button></li>
             </ul>
         </fieldset>
     </form>
 </body>
+
 </html>
